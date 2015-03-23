@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Expression Engine Add-on Manager v1.0.1</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="description" content="Expression Engine Add-on Manager v1.0 - Program which includes ">
+	<meta name="keywords" content="Expression,Engine,Expression Engine,ExpressionEngine,HTML,CSS,XML,JavaScript,Add-ons">
+	<meta name="author" content="Carl Skeel">
+	
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">	
+	<link href="data:text/css;charset=utf-8," data-href="../dist/css/bootstrap-theme.min.css" rel="stylesheet" id="bs-theme-stylesheet">
+	
+	
+	<link type="text/css" href="EEcss/EEselect.css" rel="stylesheet">
+	
+	<!--May implement when converted so it applies to all except the last ul-->
+	<!-- <link type="text/css" href="EEcss/LeftDwnListTree2.css" rel="stylesheet"> -->
+	
+	
+	
+</head>
+
+<body>
+
+	
+    <div class="container-fluid">
+		<div class="row topA">
+			<div class="col-md-2"> <img src="images/EE_logo75wl.png" width="75" height="75" alt="Expression Engine"></div>
+			<div class="col-md-9">
+				<h1 class="text-right">Expression Engine Add-on Manager v1.0.1</h1>
+			</div>
+			<div class="col-md-1">
+				
+			</div>
+		</div><!--End row top A-->
+		
+		<div class="row topB">
+			<div class="col-md-5">
+				<div class="AppBar">
+					<div class="container">
+						<h3 class="text-left">Addons</h3>
+												
+					</div>
+				</div><!--EndAppBar-->
+			</div>
+			<div class="col-md-7">
+			</div>
+			
+		</div><!--End row top B-->
+		
+		<div class="row content">
+			<div class="col-md-6">
+				
+				<!-- Original treeview style credit given to: Martin Ivanov
+				(http://experiments.wemakesites.net/) Applies if file: LeftDwnListTree2.css is implemented.
+				Other code added customized by Carl Skeel for Expression Engine -->
+				<div class="css-treeview">
+					<ul><!--Main ul-->
+						<li><input type="checkbox" id="item-0" /><label for="item-0">Addons</label>
+							<ul><!--Items container ul-->
+								<li><input type="checkbox" id="item-0-0" /><label for="item-0-0">Assets</label>
+									<ul>
+										
+										<div class="bs-example" style="padding-bottom: 24px;">
+											<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalAssets1">
+											  Assets Info
+											</button>
+										</div><!-- /Modal Btn1 -->
+										<!-- Modal Btn1 content -->
+										<div id="myModalAssets1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+												<div class="modal-content">
+
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+														<h4 class="modal-title" id="myModalLabel">Assets</h4>
+													</div>
+													<div class="modal-body">
+														
+														<p>Developer: <a href="http://pixelandtonic.com/" 
+														class="tooltip-PnTsite"  
+														title="Pixel and Tonic">Pixel and Tonic</a></p>
+														<p>Current Version: 2.4</p>
+														<p>Development License: 2cdf48f3-57eb-4f4d-b662-062f357f14e3</p>
+														<p>Type: Module</p>
+														<p>Use: File Manage</p>
+														<hr>
+														<p>Documentation: <a href="http:/Idocs.pixelandtonic.corrvassets/index.html" 
+														class="tooltip-PnTassestDoc"  
+														title="Assets Documentation Link">http:/Idocs.pixelandtonic.corrvassets/index.html</a></p>
+														<hr>														
+														<p>Versions: 2.4, 2.3.2, 2.3.1, 2.3, 2.2.4, 2.2.3</p>
+														
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>				
+													</div>
+
+												</div><!-- /.modal-content -->
+											</div><!-- /.modal-dialog -->
+										</div><!-- /.modal -->
+										<div class="radiogroup-Assets">
+											<div class="radio">
+												<label>
+													<input type="radio" name="optionsRadiosAssets" id="optionsRadios1" value="option1">
+													2.4
+												</label>										  
+											</div>
+											
+											<div class="radio">
+												<label>
+													<input type="radio" name="optionsRadiosAssets" id="optionsRadios2" value="option2">
+													2.3.2
+												</label>
+											</div>										
+																					
+											<div class="radio">
+												<label>
+													<input type="radio" name="optionsRadiosAssets" id="optionsRadios3" value="option3">
+													2.3.1
+												</label>
+											</div>
+											
+											<div class="radio">
+												<label>
+													<input type="radio" name="optionsRadiosAssets" id="optionsRadios3" value="option3">
+													2.3
+												</label>
+											</div>
+											
+											<div class="radio">
+												<label>
+													<input type="radio" name="optionsRadiosAssets" id="optionsRadios3" value="option3">
+													2.2.4
+												</label>
+											</div>
+											
+											<div class="radio">
+												<label>
+													<input type="radio" name="optionsRadiosAssets" id="optionsRadios3" value="option3">
+													2.2.3
+												</label>
+											</div>
+										</div>
+									</ul>
+								</li>
+								<li><input type="checkbox" id="item-0-1" /><label for="item-0-1">Matrix</label>
+									<ul>
+										
+										<div class="bs-example" style="padding-bottom: 24px;">
+											<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalMatrix1">
+											  Matrix Info
+											</button>
+										</div><!-- /Modal Btn2 -->
+										<!-- Modal Btn2 content -->
+										<div id="myModalMatrix1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+												<div class="modal-content">
+
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+														<h4 class="modal-title" id="myModalLabel">Matrix</h4>
+													</div>
+													<div class="modal-body">
+														
+														<p>Developer: <a href="http://pixelandtonic.com/" 
+														class="tooltip-PnTsite"  
+														title="Pixel and Tonic">Pixel and Tonic</a></p>
+														<p>Current Version: 2.6.1</p>
+														<p>Minimum EE Version: 2.4.0</p>
+														<p>Release Date: Nov 11, 2014</p>
+														<p>Development License: ?</p>
+														<p>Type: Module</p>
+														<p>Use: </p>
+														<p>Cell Types For All
+														Matrix comes bundled with Text, Date, Number, and File cell types, 
+														and it&#39;s compatible with over 80 others, 
+														including P&T&#39;s own Field Pack, Wygwam, Playa, and Assets. </p>
+														<hr>
+														<p>Documentation: <a href="http:/Idocs.pixelandtonic.corrvassets/index.html" 
+														class="tooltip-PnTmatrixDoc"  
+														title="Matrix Documentation Link">http://docs.pixelandtonic.com/matrix/</a></p>
+														<hr>														
+														<p>Versions: 2.6.1 - 2.4.0</p>
+														
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>				
+													</div>
+
+												</div><!-- /.modal-content -->
+											</div><!-- /.modal-dialog -->
+										</div><!-- /.modal -->
+										<div class="radiogroup-Matrix">
+											<div class="radio">
+											  <label>
+												<input type="radio" name="optionsRadiosMatrix" id="optionsRadios1" value="option1">
+												2.6.1
+											  </label>
+											</div>
+																					
+											<div class="radio">
+											  <label>
+												<input type="radio" name="optionsRadiosMatrix" id="optionsRadios2" value="option2">
+												2.4.0
+											  </label>
+											</div>										
+										</div>			
+										
+									</ul>
+								</li>
+								<li><input type="checkbox" id="item-0-2" /><label for="item-0-2">Structure</label>
+									<ul>
+										
+										<div class="bs-example" style="padding-bottom: 24px;">
+											<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalStructure1">
+											  Structure Info
+											</button>
+										</div><!-- /Modal Btn3 -->
+										<!-- Modal Btn3 content -->
+										<div id="myModalStructure1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+												<div class="modal-content">
+
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+														<h4 class="modal-title" id="myModalLabel">Structure</h4>
+													</div>
+													<div class="modal-body">
+														
+														<p>Developer: <a href="http://buildwithstructure.com/" 
+														class="tooltip-Structure"  
+														title="Author: Travis Schmeisser">Travis Schmeisser</a></p>
+														<p>Current Version: 3.3.14.7</p>
+														<p>Minimum EE Version: 2.5.0</p>
+														<p>Release Date: Nov 30, 2014</p>
+														<p>Development License: ?</p>
+														<p>Type: Module</p>
+														<p>Use: </p>
+														<p>Structure is a powerful add-on that lets you create pages, generate navigation, 
+														manage content through a simple interface and build robust sites faster than ever.</p>
+														<hr>
+														<p>Documentation: <a href="http://buildwithstructure.com/documentation" 
+														class="tooltip-PnTmatrixDoc"  
+														title="Structure Documentation Link">http://buildwithstructure.com/documentation</a></p>
+														<hr>														
+														<p>Versions: 3.3.14.7 - 2.5</p>
+														
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>				
+													</div>
+
+												</div><!-- /.modal-content -->
+											</div><!-- /.modal-dialog -->
+										</div><!-- /.modal -->
+										
+										<div class="radio">
+										  <label>
+											<input type="radio" name="optionsRadiosStructure" id="optionsRadios1" value="option1" checked>
+											3.3.14.7
+										  </label>
+										</div>
+																				
+										<div class="radio">
+										  <label>
+											<input type="radio" name="optionsRadiosStructure" id="optionsRadios2" value="option2">
+											2.5
+										  </label>
+										</div>										
+																			
+										
+									</ul>
+								</li>
+								<li><input type="checkbox" id="item-0-3" /><label for="item-0-3">Wygwam</label>
+									<ul>
+										<div class="bs-example" style="padding-bottom: 24px;">
+											<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalWygwam1">
+											  Wygwam Info
+											</button>
+										</div><!-- /Modal Btn4 -->
+										<!-- Modal Btn4 content -->
+										<div id="myModalWygwam1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+												<div class="modal-content">
+
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+														<h4 class="modal-title" id="myModalLabel">Wygwam</h4>
+													</div>
+													<div class="modal-body">
+														
+														<p>Developer: <a href="http://pixelandtonic.com/" 
+														class="tooltip-PnTsite"  
+														title="Pixel and Tonic">Pixel and Tonic</a></p>
+														<p>Current Version: 3.3.3</p>
+														<p>Minimum EE Version: 2.7.0</p>
+														<p>Release Date: Dec 8, 2014</p>
+														<p>Development License: ?</p>
+														<p>Type: Module</p>
+														<p>Use: </p>
+														<p>ExpressionEngine&#39;s most popular, powerful, and beautiful WYSIWYG editor, 
+														with support for channel fields, Matrix, Low Variables, and Content Elements.</p>
+														<hr>
+														<p>Documentation: <a href="https://docs.pixelandtonic.com/wygwam/" 
+														class="tooltip-PnTwygwamDoc"  
+														title="Structure Documentation Link">https://docs.pixelandtonic.com/wygwam/</a></p>
+														<hr>														
+														<p>Versions: 3.3.3 - 2.7.0</p>
+														
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>				
+													</div>
+
+												</div><!-- /.modal-content -->
+											</div><!-- /.modal-dialog -->
+										</div><!-- /.modal -->
+																				
+										<div class="radio">
+										  <label>
+											<input type="radio" name="optionsRadiosWygwam" id="optionsRadios1" value="option1" checked>
+											3.3.3
+										  </label>
+										</div>
+																				
+										<div class="radio">
+										  <label>
+											<input type="radio" name="optionsRadiosWygwam" id="optionsRadios2" value="option2">
+											2.7.0
+										  </label>
+										</div>										
+																				
+									</ul>
+								</li>
+							</ul><!--End Items Container.-->
+						</li>
+					</ul><!--End Main ul-->
+				</div><!--End left tree view-->
+										
+			</div><!--End col mid 10-->
+			<div class="col-md-4">
+				Please select the software versions that you need packaged.
+			</div><!--End col mid 2-->
+		</div><!--End row content-->
+						
+		
+		<div class="row foot">
+			
+			<div class="col-md-12 footctr">
+				<p class="ftp1">v1.0.1 Author: Carl Skeel</p>
+			</div>
+			
+		</div><!--End row foot-->
+		
+		<!--test rad-->
+		<!-- This is a radio button test.
+		<div class="radio">
+		  <label>
+		    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+		    Option one is this and that&mdash;be sure to include why it's great
+		  </label>
+		</div>
+		<div class="radio">
+		  <label>
+		    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+		    Option two can be something else and selecting it will deselect option one
+		  </label>
+		</div>
+		<div class="radio disabled">
+		  <label>
+		    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+		    Option three is disabled
+		  </label>
+		</div> 
+		<li><a href="./">Item 1</a></li>-->
+		
+	</div><!--EndCfluid-->
+	
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	
+	<!-- jQuery & JS files Located here. -->
+	<script src="EEjs/EE.js" type="text/javascript" ></script>	
+	<!--  -->
+	
+</body>
+
+</html> 

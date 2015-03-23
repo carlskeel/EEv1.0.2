@@ -1,0 +1,59 @@
+
+/* Color scheme notes */
+/* 
+darkblue= 		#337ab7;
+green= 			#5cb85c;
+lightblue=    	#5bc0de;
+orange=	 		#f0ad4e;
+red=  			#d9534f; 
+*/
+
+/*Gives bootstrap grid custom settings*/
+.container-fluid{
+	background-color: 	#337AB7;
+	border-color:		#337AB7;
+	border-style:solid;
+	border-width:1px;
+}
+.row.topA{
+	background-color: 	#337AB7;	
+}
+.row.topA .col-md-9 h1{
+	color: 				#FFFFFF;
+	text-decoration: 	overline;	
+}
+.row.topB{
+	background-color: 	#5bc0de;	
+}
+.row.content{
+	background-color: 	#FFFFFF;	
+}
+.row.foot{
+	background-color: 	#337AB7;	
+}
+/*Bootstrap grid custom settings End.*/
+
+
+
+/* modal css custom changes. */
+.modal-header{
+	background-color: 	#337AB7;
+	color: 				#FFFFFF;
+}
+.modal-body{
+	border-color:		#337AB7;
+	border-style: 		solid;
+	border-width:		1px;
+}
+/* modal css custom changes End. */
+
+
+/* Table css .tg for populated data. for centerborder = margin:0px auto;*/
+.tg  {border-collapse:collapse;border-spacing:0;border-style:solid;border-width:0px;border-color:#337AB7;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;border-color:#337AB7;overflow:hidden;word-break:normal;border-top-width:0px;border-bottom-width:0px;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;border-color:#337AB7;overflow:hidden;word-break:normal;border-top-width:0px;border-bottom-width:0px;}
+.tg .tg-thcs{background-color:#FFFFFF;color:#333333;text-align:center}
+.tg .tg-tdcs{background-color:#FFFFFF}
+/* Table css .tg for populated data End. */
+
+
